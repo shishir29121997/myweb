@@ -13,6 +13,10 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
+		<properties>
+		    <maven.compiler.source>6.0</maven.compiler.source>
+		    <maven.compiler.target>1.6</maven.compiler.target>
+		</properties>
 	</properties>	
 	<dependencies>
 
